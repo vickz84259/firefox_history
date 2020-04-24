@@ -18,7 +18,8 @@ dependencies:
 
 ### Using Poetry (Recommended)
 
-[Poetry](https://python-poetry.org/) is the dependency manager used in this project. To install poetry, follow the instruction listed at: [link](https://python-poetry.org/)
+[Poetry](https://python-poetry.org/) is the dependency manager used in this project.
+To install poetry, follow the instructions at: [link](https://python-poetry.org/)
 
 Once installed, navigate to the project directory and run:
 
@@ -40,7 +41,7 @@ poetry shell
 
 A **requirements.txt** file is provided in the case someone is using a different
 dependency manager. The requirements.txt file includes the dev dependencies.
-This section assumes that the user has created and activate a virtual environment
+This section assumes that the user has created and activated a virtual environment
 using their preferred tool.
 
 To use pip to install the dependencies, run:
@@ -51,7 +52,7 @@ python -m pip install -r requirements.txt
 
 ### Executing the script
 
-The script expects the a path to the places.sqlite file to be passed as a command
+The script expects the path to the places.sqlite file to be passed as a command
 line argument as so:
 
 ```
@@ -62,7 +63,7 @@ python main.py path_to_database_file
 
 The script has a hardcoded value for the timestamp based on some analysis
 I was carrying out. This means that the links fetched will only be
-those dating after 2020-04-01 00:00GMT. In the future I'll be looking
+those after **2020-04-01 00:00GMT**. In the future I'll be looking
 to generalise the script and make it more useful for a variety of use cases.
 
 Also, it requires an API key to access the YouTube Data API. This is
